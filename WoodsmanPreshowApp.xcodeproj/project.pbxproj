@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34B21A11C57DD700079C387 /* preshow_announce.caf in Resources */ = {isa = PBXBuildFile; fileRef = B34B21A01C57DD700079C387 /* preshow_announce.caf */; };
+		B369DE891C556FBC008C7586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DE881C556FBC008C7586 /* main.m */; };
+		B369DE8C1C556FBC008C7586 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DE8B1C556FBC008C7586 /* AppDelegate.m */; };
+		B369DE8F1C556FBC008C7586 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B369DE8E1C556FBC008C7586 /* ViewController.m */; };
+		B369DE921C556FBC008C7586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B369DE901C556FBC008C7586 /* Main.storyboard */; };
+		B369DE941C556FBC008C7586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B369DE931C556FBC008C7586 /* Assets.xcassets */; };
+		B369DE971C556FBC008C7586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B369DE951C556FBC008C7586 /* LaunchScreen.storyboard */; };
+		B369DE9F1C556FC8008C7586 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369DE9E1C556FC8008C7586 /* AVFoundation.framework */; };
+		B369DEA11C556FD9008C7586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369DEA01C556FD9008C7586 /* UIKit.framework */; };
+		B369DEA31C556FDE008C7586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369DEA21C556FDE008C7586 /* Foundation.framework */; };
+		B369DEA51C556FE6008C7586 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369DEA41C556FE6008C7586 /* CoreGraphics.framework */; };
+		B369DEAB1C558B4E008C7586 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369DEAA1C558B4E008C7586 /* AudioToolbox.framework */; };
+		B369DEAD1C559041008C7586 /* woodsmanicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B369DEAC1C559041008C7586 /* woodsmanicon.png */; };
+		B369DEB31C55BBD2008C7586 /* woodsmanlaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = B369DEB21C55BBD2008C7586 /* woodsmanlaunch.png */; };
+		B3D770371C56D11500C5831F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D770361C56D11500C5831F /* CoreAudio.framework */; };
+		B3D7703B1C572AFB00C5831F /* preshow_amb_v2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B3D7703A1C572AFB00C5831F /* preshow_amb_v2.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B34B21A01C57DD700079C387 /* preshow_announce.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = preshow_announce.caf; path = ../preshow_announce.caf; sourceTree = "<group>"; };
+		B369DE841C556FBC008C7586 /* WoodsmanPreshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodsmanPreshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B369DE881C556FBC008C7586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B369DE8A1C556FBC008C7586 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B369DE8B1C556FBC008C7586 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B369DE8D1C556FBC008C7586 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B369DE8E1C556FBC008C7586 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B369DE911C556FBC008C7586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B369DE931C556FBC008C7586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B369DE961C556FBC008C7586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B369DE981C556FBC008C7586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B369DE9E1C556FC8008C7586 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B369DEA01C556FD9008C7586 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B369DEA21C556FDE008C7586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B369DEA41C556FE6008C7586 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B369DEAA1C558B4E008C7586 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B369DEAC1C559041008C7586 /* woodsmanicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodsmanicon.png; sourceTree = "<group>"; };
+		B369DEB21C55BBD2008C7586 /* woodsmanlaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodsmanlaunch.png; sourceTree = "<group>"; };
+		B3D770361C56D11500C5831F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B3D7703A1C572AFB00C5831F /* preshow_amb_v2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = preshow_amb_v2.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B369DE811C556FBC008C7586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D770371C56D11500C5831F /* CoreAudio.framework in Frameworks */,
+				B369DEAB1C558B4E008C7586 /* AudioToolbox.framework in Frameworks */,
+				B369DEA51C556FE6008C7586 /* CoreGraphics.framework in Frameworks */,
+				B369DEA31C556FDE008C7586 /* Foundation.framework in Frameworks */,
+				B369DEA11C556FD9008C7586 /* UIKit.framework in Frameworks */,
+				B369DE9F1C556FC8008C7586 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B369DE7B1C556FBC008C7586 = {
+			isa = PBXGroup;
+			children = (
+				B3D770361C56D11500C5831F /* CoreAudio.framework */,
+				B369DEB21C55BBD2008C7586 /* woodsmanlaunch.png */,
+				B369DEAC1C559041008C7586 /* woodsmanicon.png */,
+				B369DEAA1C558B4E008C7586 /* AudioToolbox.framework */,
+				B369DEA41C556FE6008C7586 /* CoreGraphics.framework */,
+				B369DEA21C556FDE008C7586 /* Foundation.framework */,
+				B369DEA01C556FD9008C7586 /* UIKit.framework */,
+				B369DE9E1C556FC8008C7586 /* AVFoundation.framework */,
+				B369DE861C556FBC008C7586 /* WoodsmanPreshowApp */,
+				B369DE851C556FBC008C7586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B369DE851C556FBC008C7586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B369DE841C556FBC008C7586 /* WoodsmanPreshowApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B369DE861C556FBC008C7586 /* WoodsmanPreshowApp */ = {
+			isa = PBXGroup;
+			children = (
+				B3D7703A1C572AFB00C5831F /* preshow_amb_v2.caf */,
+				B34B21A01C57DD700079C387 /* preshow_announce.caf */,
+				B369DE8A1C556FBC008C7586 /* AppDelegate.h */,
+				B369DE8B1C556FBC008C7586 /* AppDelegate.m */,
+				B369DE8D1C556FBC008C7586 /* ViewController.h */,
+				B369DE8E1C556FBC008C7586 /* ViewController.m */,
+				B369DE901C556FBC008C7586 /* Main.storyboard */,
+				B369DE931C556FBC008C7586 /* Assets.xcassets */,
+				B369DE951C556FBC008C7586 /* LaunchScreen.storyboard */,
+				B369DE981C556FBC008C7586 /* Info.plist */,
+				B369DE871C556FBC008C7586 /* Supporting Files */,
+			);
+			path = WoodsmanPreshowApp;
+			sourceTree = "<group>";
+		};
+		B369DE871C556FBC008C7586 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B369DE881C556FBC008C7586 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B369DE831C556FBC008C7586 /* WoodsmanPreshowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B369DE9B1C556FBC008C7586 /* Build configuration list for PBXNativeTarget "WoodsmanPreshowApp" */;
+			buildPhases = (
+				B369DE801C556FBC008C7586 /* Sources */,
+				B369DE811C556FBC008C7586 /* Frameworks */,
+				B369DE821C556FBC008C7586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoodsmanPreshowApp;
+			productName = WoodsmanPreshowApp;
+			productReference = B369DE841C556FBC008C7586 /* WoodsmanPreshowApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B369DE7C1C556FBC008C7586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Adam Salberg";
+				TargetAttributes = {
+					B369DE831C556FBC008C7586 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8RAVJS9FJT;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B369DE7F1C556FBC008C7586 /* Build configuration list for PBXProject "WoodsmanPreshowApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B369DE7B1C556FBC008C7586;
+			productRefGroup = B369DE851C556FBC008C7586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B369DE831C556FBC008C7586 /* WoodsmanPreshowApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B369DE821C556FBC008C7586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D7703B1C572AFB00C5831F /* preshow_amb_v2.caf in Resources */,
+				B369DEAD1C559041008C7586 /* woodsmanicon.png in Resources */,
+				B34B21A11C57DD700079C387 /* preshow_announce.caf in Resources */,
+				B369DE971C556FBC008C7586 /* LaunchScreen.storyboard in Resources */,
+				B369DE941C556FBC008C7586 /* Assets.xcassets in Resources */,
+				B369DEB31C55BBD2008C7586 /* woodsmanlaunch.png in Resources */,
+				B369DE921C556FBC008C7586 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B369DE801C556FBC008C7586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B369DE8F1C556FBC008C7586 /* ViewController.m in Sources */,
+				B369DE8C1C556FBC008C7586 /* AppDelegate.m in Sources */,
+				B369DE891C556FBC008C7586 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B369DE901C556FBC008C7586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B369DE911C556FBC008C7586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B369DE951C556FBC008C7586 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B369DE961C556FBC008C7586 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B369DE991C556FBC008C7586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B369DE9A1C556FBC008C7586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B369DE9C1C556FBC008C7586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoodsmanPreshowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arsone.WoodsmanPreshowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B369DE9D1C556FBC008C7586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoodsmanPreshowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arsone.WoodsmanPreshowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B369DE7F1C556FBC008C7586 /* Build configuration list for PBXProject "WoodsmanPreshowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B369DE991C556FBC008C7586 /* Debug */,
+				B369DE9A1C556FBC008C7586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B369DE9B1C556FBC008C7586 /* Build configuration list for PBXNativeTarget "WoodsmanPreshowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B369DE9C1C556FBC008C7586 /* Debug */,
+				B369DE9D1C556FBC008C7586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B369DE7C1C556FBC008C7586 /* Project object */;
+}
